@@ -2,7 +2,7 @@ import os
 import telebot
 import openai
 
-TELEGRAM_TOKEN = "8045659360:AAEp0Riq4xXLirV-UCq5sExYEwaTcA-mY8g"
+TELEGRAM_TOKEN = 8045659360:AAFxqFLANwJKjJ2wvkcE91bg-Alqnh6M_ks
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
