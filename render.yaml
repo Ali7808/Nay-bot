@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: nay-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8045659360:AAEp0Riq4xXLirV-UCq5sExYEwaTcA-mY8g
+      - key: OPENAI_API_KEY
+        value: sk-xxx (بدّله بتوكن OpenAI تبعك)
